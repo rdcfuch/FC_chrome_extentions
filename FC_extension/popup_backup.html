@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Monica-like Extension</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+    }
+    #sendRequest {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Send Data</h2>
+  <form id="dataForm">
+    <label for="data">Data:</label><br>
+    <textarea id="data" name="data" rows="4" cols="30"></textarea><br>
+    <input type="button" id="sendRequest" value="Send Request">
+  </form>
+  <div id="response"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
